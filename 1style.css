@@ -1,0 +1,1025 @@
+.nav
+{
+    background-color: rgb(253, 251, 251);
+    z-index: 9;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    width: 100%  ;
+    margin-top: 0px;
+    box-shadow: 0px 5px 75px 0px grey;
+
+}
+.nav_top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logo{
+    float: left;
+    width: 50%;
+
+
+}
+.logo img{
+    padding: 10px;
+    margin-left: 200px;
+    border-radius: 50%;
+
+}
+.logo img :hover{
+   
+    width: "100px";
+    height: "100px" ;
+    border-radius: 60%;
+    transition: all 1s ease;
+}
+.nav_side{
+    float: right;
+    width: 40%;
+   padding-top: 20px;
+    
+}
+.nav_side a{
+    text-decoration: none;
+    margin-right: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.nav_side a:hover{
+    color: blue;
+    text-decoration: underline;
+    font-size: 125%;
+    transition: all 1s ease;
+}
+.main {
+    background-image: url(/Messi/leo4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh ;
+}
+
+.main .main_content{
+    padding-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.main .main_content h2{
+ font-size: 30px;
+ color: rgb(252, 248, 248);
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bolder;
+ text-align: center;
+ text-shadow: 0ch 5px 75px 2px grey;
+ line-height: 20px;
+}
+
+.main .main_content h2 span{
+    padding-top: 30%;
+    font-size: 15px;
+    color: rgb(243, 117, 14);
+    line-height: 10px;
+    opacity: 0.75;
+}
+.main .main_content .btn{
+    margin-top: 50px;
+
+}
+.main .main_content .btn a{
+    font-size: 35px;
+    margin-left: 420px;
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    padding-top: 10px 20px;
+    background-color: rgb(87, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    transition: .5s;
+}
+.main .main_content .btn a:hover{
+    background-color: rgb(8, 8, 8);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    color: red;
+    border-bottom: 5px rgb(243, 227, 10);
+    transition: .5s;
+}
+.product{
+    padding-bottom: 50px;
+}
+.product h2{
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.product .product_container {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.product .product_container .item {
+    width: 33.33%;
+    margin: 10px;
+    height: auto;
+}
+.product .product_container .item:hover{
+    box-shadow: 10px 10px 55px 0px rgba(0, 0, 0, .55);
+
+}
+.product .product_container .item .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product .product_container .item .item_img img{
+    width: 100%;
+    height: 250px;
+}
+.product .product_container .item .item_content{
+    text-align: center;
+
+}
+.product .product_container .item .item_content h3{
+    padding: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.product .product_container .item .item_content p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.product .product_container .item .item_content a{
+    font-size: 25px;
+    color: rgb(53, 94, 231);
+    text-decoration: none;
+    padding-top: 10px 10px;
+    background-color: rgb(212, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    transition: .5s;
+}
+.product .product_container .item .item_content a:hover{
+    background-color: rgb(8, 8, 8);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    color: red;
+    border-bottom: 5px rgb(243, 227, 10);
+    transition: .5s;
+}
+.product .product_btn{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.product .product_btn a{
+    font-size: 25px;
+    color: rgb(53, 94, 231);
+    text-decoration: none;
+    padding-top: 10px 10px;
+    background-color: rgb(212, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    transition: .5s;
+}
+.product .product_btn a:hover{
+    font-size: 30px;
+    background-color: rgb(8, 8, 8);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    color: red;
+    border-bottom: 5px rgb(243, 227, 10);
+    transition: .5s;
+}
+.key_points{
+    padding: 50px;
+
+}
+.key_points h2{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+.key_points .key_container{
+    display: flex;
+}
+.key_points .key_container .key_content{
+    width: 40%;
+    padding: 20px;
+    float: left;
+}
+.key_points .key_container .key_content li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border-left: 2px solid rgb(245, 241, 6) ;
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, .55);
+}
+.key_points .key_container .key_img{
+    width: 40%;
+    float: right;
+    margin-left: 100px;
+}
+.key_points .key_container .key_img img{
+    width: 100%;
+
+}
+
+
+
+
+
+
+.testi{
+    padding: 50px;
+}
+.testi h2{
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.testi h3{
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.testi .testi_container{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}   
+.testi .testi_container .carousel-inner{
+    background-color: white;
+    box-shadow: none;
+}
+.testi .testi_container .item{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    background-color: white;
+    box-shadow: none;
+}
+.testi .testi_container .item .item_image
+{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    overflow: hidden;
+}
+.testi .testi_container .item .item_image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+   
+}
+.testi .testi_container .item .item_content{
+    text-align: center;
+}
+.testi .testi_container .item .item_content h3{
+    padding: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.testi .testi_container .item .item_content p{
+    margin-bottom: 25px;
+    padding: 10px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.team{
+    padding: 10px;
+}   
+
+.team h2{ 
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.team .team_container{
+    display: flex;
+}
+
+
+.team .team_container .team_video{
+    box-shadow: 0px 3px 25px 0px black;
+    width: 60%;
+    padding: 20px;
+ 
+
+}
+.team .team_container .team_video video{
+    width: 100%;
+
+}
+.team .team_container .team_content h3{  
+      color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-transform: none;
+
+}
+.team .team_container .team_content{
+    box-shadow: 0px 3px 25px 0px black;
+    width: 40%;
+    padding: 20px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.feed{
+    background-image: url(/Messi/leo3.jpg);
+    background-size: cover;
+
+}
+.feed h2{
+    color: rgb(248, 245, 245);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+}
+.feed .feed_form{
+    text-align: center;
+}
+.feed .feed_form form{
+    padding: 20px;
+}
+.feed .feed_form form input{
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.feed .feed_form form textarea{
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.feed .feed_form form button{
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: cadetblue;
+    color: black;
+    border-radius: 5%;
+    font-size: 15px;
+}
+.feed .feed_form form button:hover{
+    width: 15%;
+    margin: 10px;
+    padding: 10px;
+    outline: 2px gold;
+    border: none;
+    background-color: rgb(4, 112, 116);
+    color: rgb(248, 247, 247);
+    border-radius: 5%;
+    font-size: 15px;
+    transition: .5s;
+}
+
+
+
+.about{
+    padding: 90px;
+}
+.about h2{
+    color: rgb(58, 1, 1);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+.about .about_messi p{
+
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+.about .about_barca p{
+
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.contact_container{
+    padding: 100px;
+}
+.contact_container h2{
+    color: rgb(58, 1, 1);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+.contact_container  .g_map{
+    border: 10px solid aquamarine;
+}
+.contact_container  .contact_content{
+    padding: 20px;
+   
+  
+}
+.contact_container  .contact_content p{
+    
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+
+}
+
+
+
+
+footer{
+    margin-top: 20px;
+    background-color: #808B96;
+    padding: 50px;
+}
+footer .pages{
+    text-align: center;
+    padding-top: 50px;
+}
+footer .pages h3{
+        color: black;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+}
+footer .pages a{
+    text-decoration: none;
+    margin:10px;
+    color: blue;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+footer .pages a:hover{
+    color: white;
+
+}
+footer .doc{
+    text-align: center;
+    padding-top: 10px;
+}
+footer .doc h3{
+        color: black;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+}
+footer .doc a{
+    text-decoration: none;
+    margin:10px;
+    color: blue;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+footer .doc a:hover{
+    color: white;
+    
+}
+footer .media{
+    text-align: center;
+    padding-top: 10px;
+}
+footer .media h3{
+        color: black;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+}
+footer .contact{
+    text-align: center;
+    padding-top: 10px;
+}
+footer .contact h3{
+        color: black;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+}
+footer .footer_logo{
+    float: left;
+    width: 50%;
+
+
+}
+footer .footer_logo img{
+    padding: 10px;
+    margin-left: 200px;
+    border-radius: 50%;
+
+}
+footer .footer_logo img :hover{
+   
+    width: "100px";
+    height: "100px" ;
+    border-radius: 60%;
+    transition: all 1s ease;
+}
+footer .media a{
+    text-decoration: none;
+    font-size: 25px;
+    color: blue;
+    margin:10px;
+}
+footer .media a:hover{
+    color: white;
+}
+footer .contact a{
+    text-decoration: none;
+    font-size: 25px;
+    color: blue;
+    margin:10px;
+}
+footer .contact a:hover{
+    color: white;
+}
+footer p{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.about{
+    padding: 90px;
+}
+.about h2{
+    color: rgb(58, 1, 1);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+.about .about_messi p{
+
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+.about .about_barca p{
+
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+
+.youtube{
+    padding: 90px;
+}
+.youtube h2{
+    color: rgb(58, 1, 1);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+.youtube .ourchannel p{
+
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+.youtube .link{
+
+    padding: 20px;
+}
+.youtube  .link a{
+    margin-left: 48%;
+    text-decoration: none;
+    color: rgb(241, 8, 8);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 3px 15px 0px black;
+
+}
+.youtube .link a:hover{
+    color: rgb(25, 0, 134);
+}
+.youtube  .video{
+    text-align: center;
+    padding: 25px;
+    width: 80%;
+    margin-left: 8%;
+}
+.youtube  .video iframe{ 
+   
+    box-shadow : 0px 3px 65px 0px black;
+}
+.youtube  .subscribe{
+
+    padding: 20px;
+}
+.youtube  .subscribe a{
+    margin-left: 43%;
+
+    text-decoration: none;
+    color: rgb(245, 11, 11);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 3px 15px 0px black;
+
+}
+
+.youtube  .subscribe a:hover{
+    color: black;
+}
+
+
+
+
+
+.login{
+    margin-top: 150px;
+    background-image: none;
+    background-size: cover;
+    box-shadow: 0px 4px 90px black;
+   
+ 
+
+}
+.login h2{
+    color: rgb(250, 8, 8);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    text-align: center;
+}
+.login .feed_form{
+    text-align: center;
+    width:100%;
+}
+.login .feed_form form{
+    padding: 20px;
+    outline: gold 2px;
+}
+.login .feed_form form input{
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    
+    border:2px black;
+}
+.login .feed_form form textarea{
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    
+    border:2px black;
+
+}
+.login .feed_form form button{
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: cadetblue;
+    color: black;
+    border-radius: 5%;
+    font-size: 15px;
+}
+.login .feed_form form button:hover{
+    width: 15%;
+    margin: 10px;
+    padding: 10px;
+    outline: 2px gold;
+    border: none;
+    background-color: rgb(4, 112, 116);
+    color: rgb(248, 247, 247);
+    border-radius: 5%;
+    font-size: 15px;
+    transition: .5s;
+}
+
+
+
+
+
+.buy{
+    margin-top: 150px;
+    background-image: none;
+    background-size: cover;
+    box-shadow: 0px 4px 90px black;
+   
+ border:  2px solid black;
+
+}
+.buy h2{
+    color: rgb(250, 8, 8);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    text-align: center;
+}
+.buy .bill{
+    text-align: center;
+    width:100%;
+    border:  2px solid black
+}
+.buy .bill form{
+    padding: 20px;
+    outline: gold 2px;
+    border:  2px solid black
+}
+.buy .bill form input{
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    
+    border:2px black;
+}
+.buy .bill form textarea{
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    
+    border:2px black;
+
+}
+.buy .bill form button{
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(112, 27, 6);
+    color: black;
+    border-radius: 5%;
+    font-size: 15px;
+}
+.buy .bill form button:hover{
+    width: 15%;
+    margin: 10px;
+    padding: 10px;
+    outline: 2px gold;
+    border: none;
+    background-color: rgb(116, 4, 4);
+    color: rgb(248, 247, 247);
+    border-radius: 5%;
+    font-size: 15px;
+    transition: .5s;
+}
+.buy .bill form a{
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(112, 27, 6);
+    color: black;
+    border-radius: 5%;
+    font-size: 15px;
+}
+.buy .bill form a:hover{
+    width: 15%;
+    margin: 10px;
+    padding: 10px;
+    outline: 2px gold;
+    border: none;
+    background-color: rgb(116, 4, 4);
+    color: rgb(248, 247, 247);
+    border-radius: 5%;
+    font-size: 15px;
+    transition: .5s;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 376px) {
+
+    .product .product_container{
+        display: grid;
+    }
+    .logo{
+        float: left;
+        width: 30%;
+    }
+    .logo img{
+        margin-left: 0%;
+
+    }
+    .nav_side{
+        margin-right: 15px;
+        float: right;
+        width: 60%;
+    }
+    .main .main_content h2{
+        padding-top: 50px;
+    }
+    .product .product_container .item {
+        width: 100%;
+    }
+    footer .footer_logo{
+        float:left;
+        width: 30%;
+    }
+    footer .footer_logo img{
+        margin-left: 10%;
+    }
+    .key_points .key_container{
+        display: grid;
+    }
+    .key_points .key_container .key_content{
+        width: 80%;
+    }
+    .main .main_content .btn a{
+    margin: 50px;
+    }
+    
+    .about .about_messi{
+        width: 100%;
+        margin-left: none;
+        margin-right: none;
+    }
+    .about .about_barca{
+        width: 100%;
+        margin-left: none;
+        margin-right: none;
+    }
+
+     .youtube .video{
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+
+     }
+
+
+
+}
+
+@media (min-width:377px)  and  (max-width: 414px){
+
+    .product .product_container{
+        display: grid;
+    }
+    .logo{
+        float: left;
+        width: 30%;
+    }
+    .logo img{
+        margin-left: 0%;
+
+    }
+    .nav_side{
+        float: right;
+        width: 60%;
+    }
+    .main .main_content h2{
+        padding-top: 50px;
+    }
+    .product .product_container .item {
+        width: 100%;
+    }
+    footer .footer_logo{
+        float:left;
+        width: 30%;
+    }
+    footer .footer_logo img{
+        margin-left: 10%;
+    }
+    .key_points .key_container{
+        display: grid;
+    }
+    .key_points .key_container .key_content{
+        width: 80%;
+    }
+    .main .main_content .btn a{
+    margin-left: 95px;
+    }
+    .about .about_messi{
+        width: 100%;
+        margin-left: none;
+        margin-right: none;
+    }
+    .about .about_barca{
+        width: 100%;
+        margin-left: none;
+        margin-right: none;
+    }
+}
+@media (min-width:415px)  and  (max-width: 820px){
+
+    .product .product_container{
+        display: grid;
+    }
+    .logo{
+        float: left;
+        width: 30%;
+    }
+    .logo img{
+        margin-left: 0%;
+
+    }
+    .nav_side{
+        float: right;
+        width: 60%;
+    }
+    .main .main_content h2{
+        padding-top: 50px;
+    }
+    .product .product_container .item {
+        width: 100%;
+    }
+    footer .footer_logo{
+        float:left;
+        width: 30%;
+    }
+    footer .footer_logo img{
+        margin-left: 10%;
+    }
+    .key_points .key_container{
+        display: grid;
+    }
+    .key_points .key_container .key_content{
+        width: 80%;
+    }
+    .main .main_content .btn a{
+    margin-left: 255px;
+    }
+    .about .about_messi{
+        width: 100%;
+        margin-left: none;
+        margin-right: none;
+    }
+    .about .about_barca{
+        width: 100%;
+        margin-left: none;
+        margin-right: none;
+        font-size: 20px;
+    }
+    footer .pages{
+        padding-top: 25px;
+    }
+}
+
+

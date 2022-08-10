@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width ,initail-scale=1.0">
+
+
+         <title> project 2 | Contact Us</title>
+         <!-- Latest compiled and minified CSS -->
+         <link rel="stylesheet" href="1style.css">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    <body>
+    
+
+          
+           
+              <nav class="nav nav_top">
+                      <div class="logo">
+                          <a href="poject1index.html"><img src="E:\Messi\leo2.JPG" width="100px"></a>
+                       </div>
+                       <div class="nav_side">
+                          <a href="aboutusindex.html">About Us</a>|
+                          <a href="services.html">Services</a>|
+                          <a href="youtube.html">You Tube</a>|
+                          <a href="contactusindex.html">Contact Us</a>|
+                          <a href="login.html">login</a> 
+                       </div>
+              </nav>
+
+           <div class="contact_container">
+             <h2>Contact Us</h2>
+                <div class="g_map">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5760.844485338312!2d78.70554893653976!3d10.761444066722595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa8b7fbba7ecbd%3A0x9661eaba7dc787ad!2sTiruchirapalli%20Airport%20Integrated%20Terminal!5e0!3m2!1sen!2sin!4v1659596135484!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact_content">
+                   <p><b>Address: 123, Naga nagar, Trichy, Tamil Nadu, India</b></p>
+                   <p><b>call:  +91 9999999999</b></p>
+                   <p><b>Mail: rockyroshan112003@gmail.com</b></p>
+                </div>
+           </div>
+
+
+
+
+
+
+
+
+              <div class="feed">
+                <h2> Feedback</h2>
+                <div class="feed_form">
+                  <form name="Feedback_form" method="post" >
+                    <input type="text" name="Name" placeholder="Name" required><br>
+                    <input type="email" name="e-mail" placeholder="e-mail" required><br>
+                    <input type="number" name="Phone" placeholder="Contact-no." required><br>
+                    <textarea rows="5" cols="40%" name="Message"  placeholder="Your Review"></textarea><br>
+                    <button type="submit">Submit</button><br>
+                    <button type="reset">Reset</button>
+  
+                  </form>
+                </div>
+  
+               </div>
+  
+  
+  
+  
+    
+                <script>
+                    const scriptURL =
+                        'https://script.google.com/macros/s/AKfycbxFc3BhJeDRQhztvts4NfwKOjNkDVzZhaMK4D7Mv6uAh4i2lz_r_0-HAmN4yJLvn6dk6w/exec'
+                    const form = document.forms['Feedback_form']
+                 
+                    form.addEventListener('submit', e => {
+                        e.preventDefault()
+                        fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+                            .then( response => alert("Thank you"))
+                            .catch(error => console.error('Error!', error.message))
+                    })
+                 
+                 </script> 
+        <footer>
+            <div class="footer_logo">
+              <a href="poject1index.html"><img src="E:\Messi\leo2.JPG" width="100px"></a>
+            </div>
+            <div class="pages">
+              <h3>Pages</h3>
+              <a href="aboutusindex.html">About Us</a>|
+              <a href="services.html">Services</a>|
+              <a href="youtube.html">You Tube</a>|
+              <a href="contactusindex.html">Contact Us</a>|
+              <a href="login.html">login</a>
+            </div>
+            <div class="doc">
+              <h3>Documents</h3>
+              <a href="">Privacy Policy </a>|
+              <a href="">Terms of services</a>|
+              <a href="">Refund Policy</a>
+            </div>
+            <div class="media">
+              <h3>Social Media</h3>
+              <a href="https://www.facebook.com/ " target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> |   
+              <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> |
+              <a href="https://twitter.com/login" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>|
+              <a href="https://youtu.be/llIMehS20zo" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a> 
+            </div>
+            <div class="contact">
+              <h3>Contact Us</h3>
+              <a href="https://api.WhatsApp.com/send?phone= +917010474201" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a> |
+              <a href="tel: +917010474201"><i class="fa fa-mobile" aria-hidden="true"></i></a> |
+              <a href="mailto: rockyroshan112003@gamil.com "><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+            <hr>
+            <p> Copyright &copy; Messi_The_King. All rights reserved</p>
+        </footer>
+  
+  
+      </body>
+  </html>
